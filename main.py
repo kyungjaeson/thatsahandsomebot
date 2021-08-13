@@ -11,14 +11,14 @@ import json
 
 # reddit credentials SHOULD NOT BE EXPOSED BUT IT IS => move to likeyourstylebot
 reddit = praw.Reddit(
-    client_id="jcDV1Ktu6Gk3Ywo3d5Zw3w",
-    client_secret="RyC8mKCaGnUwIpjgWwpW9WtALwSF9g",
-    password="Reddit!2345",
-    user_agent="testscript by u/fakebot3",
-    username="likeyourstylebot",
+    client_id="<generate your own>",
+    client_secret="<generate your own>",
+    password="<enter your password>",
+    user_agent="script by kyungjaeson",
+    username="<your bots username>",
 )
 # giphy stuff
-giphy_API_key = "Rypnk2wVBrnsBzRAps6onvP1FyRugm0u"
+giphy_API_key = "<your own API key> "
 giphy_API_endpoint = "https://api.giphy.com/v1/gifs/random"
 
 # testing protocol
